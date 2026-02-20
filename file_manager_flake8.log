@@ -1,0 +1,12 @@
+file_manager.py:4:1: E302 expected 2 blank lines, found 1
+file_manager.py:5:2: E111 indentation is not a multiple of 4
+file_manager.py:7:7: E111 indentation is not a multiple of 4
+file_manager.py:9:28: E231 missing whitespace after ','
+file_manager.py:9:32: E231 missing whitespace after ','
+file_manager.py:18:2: E111 indentation is not a multiple of 4
+file_manager.py:18:25: E231 missing whitespace after ','
+file_manager.py:20:28: E231 missing whitespace after ','
+file_manager.py:20:32: E231 missing whitespace after ','
+file_manager.py:21:10: E111 indentation is not a multiple of 4
+file_manager.py:21:24: E231 missing whitespace after ','
+file_manager.py:21:29: E231 missing whitespace after ','

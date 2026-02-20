@@ -1,0 +1,39 @@
+hotel.py:3:11: E225 missing whitespace around operator
+hotel.py:5:1: E302 expected 2 blank lines, found 1
+hotel.py:6:2: E111 indentation is not a multiple of 4
+hotel.py:6:19: E231 missing whitespace after ','
+hotel.py:6:28: E231 missing whitespace after ','
+hotel.py:6:33: E231 missing whitespace after ','
+hotel.py:6:42: E231 missing whitespace after ','
+hotel.py:7:18: E225 missing whitespace around operator
+hotel.py:8:14: E225 missing whitespace around operator
+hotel.py:9:18: E225 missing whitespace around operator
+hotel.py:10:21: E225 missing whitespace around operator
+hotel.py:11:25: E225 missing whitespace around operator
+hotel.py:12:5: F841 local variable 'x' is assigned to but never used
+hotel.py:12:6: E225 missing whitespace around operator
+hotel.py:14:2: E111 indentation is not a multiple of 4
+hotel.py:15:11: E225 missing whitespace around operator
+hotel.py:17:37: E231 missing whitespace after ','
+hotel.py:19:2: E111 indentation is not a multiple of 4
+hotel.py:20:11: E225 missing whitespace around operator
+hotel.py:21:11: E225 missing whitespace around operator
+hotel.py:21:47: E225 missing whitespace around operator
+hotel.py:22:37: E231 missing whitespace after ','
+hotel.py:24:2: E111 indentation is not a multiple of 4
+hotel.py:25:11: E225 missing whitespace around operator
+hotel.py:27:6: E111 indentation is not a multiple of 4
+hotel.py:27:26: E225 missing whitespace around operator
+hotel.py:31:2: E111 indentation is not a multiple of 4
+hotel.py:32:11: E225 missing whitespace around operator
+hotel.py:34:6: E111 indentation is not a multiple of 4
+hotel.py:34:26: E225 missing whitespace around operator
+hotel.py:35:36: E225 missing whitespace around operator
+hotel.py:36:37: E225 missing whitespace around operator
+hotel.py:39:37: E231 missing whitespace after ','
+hotel.py:41:2: E111 indentation is not a multiple of 4
+hotel.py:42:11: E225 missing whitespace around operator
+hotel.py:44:6: E111 indentation is not a multiple of 4
+hotel.py:44:26: E225 missing whitespace around operator
+hotel.py:45:33: E225 missing whitespace around operator
+hotel.py:46:37: E231 missing whitespace after ','

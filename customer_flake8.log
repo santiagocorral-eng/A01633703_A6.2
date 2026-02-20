@@ -1,0 +1,23 @@
+customer.py:3:14: E225 missing whitespace around operator
+customer.py:5:1: E302 expected 2 blank lines, found 1
+customer.py:6:2: E111 indentation is not a multiple of 4
+customer.py:6:19: E231 missing whitespace after ','
+customer.py:6:31: E231 missing whitespace after ','
+customer.py:6:36: E231 missing whitespace after ','
+customer.py:6:42: E231 missing whitespace after ','
+customer.py:7:21: E225 missing whitespace around operator
+customer.py:8:14: E225 missing whitespace around operator
+customer.py:9:15: E225 missing whitespace around operator
+customer.py:10:15: E225 missing whitespace around operator
+customer.py:12:2: E111 indentation is not a multiple of 4
+customer.py:13:14: E225 missing whitespace around operator
+customer.py:15:40: E231 missing whitespace after ','
+customer.py:17:2: E111 indentation is not a multiple of 4
+customer.py:18:14: E225 missing whitespace around operator
+customer.py:19:14: E225 missing whitespace around operator
+customer.py:19:56: E225 missing whitespace around operator
+customer.py:20:40: E231 missing whitespace after ','
+customer.py:22:2: E111 indentation is not a multiple of 4
+customer.py:23:14: E225 missing whitespace around operator
+customer.py:25:6: E111 indentation is not a multiple of 4
+customer.py:25:32: E225 missing whitespace around operator

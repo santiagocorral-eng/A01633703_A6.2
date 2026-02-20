@@ -1,0 +1,17 @@
+reservation.py:4:17: E225 missing whitespace around operator
+reservation.py:6:1: E302 expected 2 blank lines, found 1
+reservation.py:7:2: E111 indentation is not a multiple of 4
+reservation.py:7:19: E231 missing whitespace after ','
+reservation.py:7:34: E231 missing whitespace after ','
+reservation.py:7:46: E231 missing whitespace after ','
+reservation.py:8:24: E225 missing whitespace around operator
+reservation.py:9:21: E225 missing whitespace around operator
+reservation.py:10:18: E225 missing whitespace around operator
+reservation.py:12:2: E111 indentation is not a multiple of 4
+reservation.py:13:17: E225 missing whitespace around operator
+reservation.py:16:43: E231 missing whitespace after ','
+reservation.py:18:2: E111 indentation is not a multiple of 4
+reservation.py:19:17: E225 missing whitespace around operator
+reservation.py:21:6: E111 indentation is not a multiple of 4
+reservation.py:21:30: E225 missing whitespace around operator
+reservation.py:24:43: E231 missing whitespace after ','
