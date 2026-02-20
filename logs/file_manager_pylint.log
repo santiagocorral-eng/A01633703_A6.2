@@ -1,29 +1,4 @@
-************* Module file_manager
-file_manager.py:5:0: W0311: Bad indentation. Found 1 spaces, expected 4 (bad-indentation)
-file_manager.py:6:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
-file_manager.py:7:0: W0311: Bad indentation. Found 6 spaces, expected 12 (bad-indentation)
-file_manager.py:8:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
-file_manager.py:9:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
-file_manager.py:10:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
-file_manager.py:11:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
-file_manager.py:12:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
-file_manager.py:13:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
-file_manager.py:14:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
-file_manager.py:15:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
-file_manager.py:16:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
-file_manager.py:18:0: W0311: Bad indentation. Found 1 spaces, expected 4 (bad-indentation)
-file_manager.py:19:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
-file_manager.py:20:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
-file_manager.py:21:0: W0311: Bad indentation. Found 9 spaces, expected 16 (bad-indentation)
-file_manager.py:22:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
-file_manager.py:23:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
-file_manager.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-file_manager.py:4:0: C0115: Missing class docstring (missing-class-docstring)
-file_manager.py:5:1: C0116: Missing function or method docstring (missing-function-docstring)
-file_manager.py:5:1: E0213: Method 'load_data' should have "self" as first argument (no-self-argument)
-file_manager.py:18:1: C0116: Missing function or method docstring (missing-function-docstring)
-file_manager.py:18:1: E0213: Method 'save_data' should have "self" as first argument (no-self-argument)
 
-------------------------------------------------------------------
-Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
 
