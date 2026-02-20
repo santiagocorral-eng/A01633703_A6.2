@@ -1,4 +1,6 @@
-"""Módulo Customer: define la clase Customer y sus operaciones sobre JSON."""
+"""
+Customer class: manages customers and persistence in JSON files.
+"""
 
 from file_manager import FileManager
 
@@ -6,10 +8,12 @@ CUSTOMER_FILE = "data/customers.json"
 
 
 class Customer:
-    """Representa a un cliente y operaciones sobre archivo JSON."""
+    """
+    Represents a customer and operations over the JSON customer file.
+    """
 
     def __init__(self, customer_id, name, email, phone):
-        """Inicializa un cliente con ID, nombre, email y teléfono."""
+        """Initialize a customer with ID, name, email and phone."""
         self.customer_id = customer_id
         self.name = name
         self.email = email
@@ -17,25 +21,50 @@ class Customer:
 
     @staticmethod
     def create_customer(customer):
-        """Agrega un cliente al archivo JSON."""
-        customers = FileManager.load_data(CUSTOMER_FILE)
+        """Add a customer to the JSON file."""
+        try:
+            customers = FileManager.load_data(CUSTOMER_FILE)
+        except (IOError, ValueError, TypeError) as error:
+            print(f"Error loading customers: {error}")
+            customers = []
+
         customers.append(customer.__dict__)
-        FileManager.save_data(CUSTOMER_FILE, customers)
+
+        try:
+            FileManager.save_data(CUSTOMER_FILE, customers)
+        except IOError as error:
+            print(f"Error saving customers: {error}")
 
     @staticmethod
     def delete_customer(customer_id):
-        """Elimina un cliente del archivo JSON por su ID."""
-        customers = FileManager.load_data(CUSTOMER_FILE)
+        """Delete a customer from the JSON file by ID."""
+        try:
+            customers = FileManager.load_data(CUSTOMER_FILE)
+        except (IOError, ValueError, TypeError) as error:
+            print(f"Error loading customers: {error}")
+            return
+
         customers = [
-            c for c in customers if c["customer_id"] != customer_id
+            customer for customer in customers
+            if customer["customer_id"] != customer_id
         ]
-        FileManager.save_data(CUSTOMER_FILE, customers)
+
+        try:
+            FileManager.save_data(CUSTOMER_FILE, customers)
+        except IOError as error:
+            print(f"Error saving customers: {error}")
 
     @staticmethod
     def display_customer(customer_id):
-        """Devuelve un cliente por su ID, o None si no existe."""
-        customers = FileManager.load_data(CUSTOMER_FILE)
+        """Return a customer by ID or None if not found."""
+        try:
+            customers = FileManager.load_data(CUSTOMER_FILE)
+        except (IOError, ValueError, TypeError) as error:
+            print(f"Error loading customers: {error}")
+            return None
+
         for customer in customers:
             if customer["customer_id"] == customer_id:
                 return customer
+
         return None
