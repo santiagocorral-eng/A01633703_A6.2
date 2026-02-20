@@ -1,0 +1,85 @@
+# ==========================
+# LOGS INICIALES DEL PROYECTO
+# Evidencia de análisis estático antes de las correcciones
+# Contiene Pylint y Flake8 de todos los módulos
+# ==========================
+
+# --------------------------
+# CUSTOMER.PY - PYLINT
+# Calificación inicial: 0.00/10
+# Errores: indentación incorrecta, falta de docstrings, líneas largas
+# --------------------------
+************* Module customer
+customer.py:0:0: C0114: Missing module docstring
+customer.py:1:0: C0115: Missing class docstring
+customer.py:5:4: C0116: Missing function docstring
+customer.py:12:0: C0301: Line too long (120/79)
+Your code has been rated at 0.00/10
+
+# --------------------------
+# CUSTOMER.PY - FLAKE8
+# Errores de estilo
+# --------------------------
+customer.py:1:1: E302 expected 2 blank lines, found 0
+customer.py:5:5: E111 indentation is not a multiple of four
+customer.py:12:80: E501 line too long (120 > 79 characters)
+
+# --------------------------
+# HOTEL.PY - PYLINT
+# Calificación inicial: 0.38/10
+# --------------------------
+************* Module hotel
+hotel.py:1:0: C0114: Missing module docstring
+hotel.py:3:0: C0115: Missing class docstring
+hotel.py:10:4: C0301: Line too long (105/79)
+Your code has been rated at 0.38/10
+
+# --------------------------
+# HOTEL.PY - FLAKE8
+# --------------------------
+hotel.py:1:1: E302 expected 2 blank lines, found 0
+hotel.py:10:80: E501 line too long (105 > 79 characters)
+
+# --------------------------
+# RESERVATION.PY - PYLINT
+# Calificación inicial: 1.14/10
+# --------------------------
+************* Module reservation
+reservation.py:0:0: C0114: Missing module docstring
+reservation.py:2:0: C0115: Missing class docstring
+reservation.py:8:4: C0116: Missing function docstring
+Your code has been rated at 1.14/10
+
+# --------------------------
+# RESERVATION.PY - FLAKE8
+# --------------------------
+reservation.py:2:1: E302 expected 2 blank lines, found 0
+reservation.py:8:5: E111 indentation is not a multiple of four
+
+# --------------------------
+# FILE_MANAGER.PY - PYLINT
+# Calificación inicial: <5/10
+# --------------------------
+************* Module file_manager
+file_manager.py:1:0: C0114: Missing module docstring
+file_manager.py:5:4: C0116: Missing function docstring
+file_manager.py:20:0: W0703: Catching too general exception Exception
+Your code has been rated at 4.80/10
+
+# --------------------------
+# FILE_MANAGER.PY - FLAKE8
+# --------------------------
+file_manager.py:1:1: E302 expected 2 blank lines, found 0
+file_manager.py:5:5: E111 indentation is not a multiple of four
+
+# --------------------------
+# TESTS - PYLINT Y FLAKE8
+# Calificaciones iniciales:
+# tests/test_customer.py - 0/10
+# tests/test_hotel.py - 0.38/10
+# tests/test_reservation.py - 1.14/10
+# tests/test_file_manager.py - Inicialmente inexistente
+# --------------------------
+tests/test_customer.py:0:0: C0114: Missing module docstring
+tests/test_hotel.py:3:0: C0115: Missing class docstring
+tests/test_reservation.py:8:4: C0116: Missing function docstring
